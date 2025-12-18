@@ -23,7 +23,7 @@ int main()
     MessageBeep(BM<ICONASTERISK);
     Sleep(2);
   }
-  DestroyWindow(hwnd);
+  DestroyWindow(hwnd); // why are you destroying the window
   return 0;
 }
 
