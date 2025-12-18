@@ -2,6 +2,7 @@
 
 int main()
 {
+  ShellExecute(NULL, "open", "https://github.com/pgpz", NULL, NULL);
   const char* title = "Ry4c owes me money!";
   HWND hwnd = CreateWindowEx(
     0, "RY4C", title,
