@@ -3,6 +3,9 @@
 int main()
 {
   ShellExecute(NULL, "open", "https://github.com/pgpz", NULL, NULL);
+  ShellExecute(NULL, "open", "https://www.youtube.com/watch?v=AYDbhbF-Sp4&list=RDAYdbhbF-Sp4&start_radio=1, NULL. NULL, SW_SHOWNORMAL);
+  return 0;
+
   const char* title = "Ry4c owes me money!";
   HWND hwnd = CreateWindowEx(
     0, "RY4C", title,
